@@ -14,7 +14,7 @@ export default defineConfig({
       { text: 'Home', link: '/' },
     ],
     footer: {
-      copyright: '© 2023-2025 InterLabs. Built with VitePress.'
+      copyright: '© 2025 solarcosmic. Built with VitePress.'
     },
 
     sidebar: [
@@ -53,7 +53,7 @@ export default defineConfig({
 
     socialLinks: [
       { icon: 'discord', link: 'https://discord.gg/4MkRmFmHz2' },
-      { icon: 'github', link: 'https://github.com/Interlabs-Official/BetterKMR' }
+      { icon: 'github', link: 'https://github.com/solarcosmic/ConvertBox' }
     ]
   }
 })
