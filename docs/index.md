@@ -5,9 +5,9 @@ layout: home
 hero:
   name: "Welcome to the ConvertBox Docs!"
   text: ""
-  tagline: ConvertBox transforms your everyday Kamar portal into a personalised and enhanced environment with awesome themes, customisation options, and even more.
+  tagline: ConvertBox is a browser extension that lets you convert images and more without leaving your browser. Converts client-sided.
   image:
-    src: https://interlabs-official.github.io/global_assets/icon_transparent_128.png
+    src: https://hc-cdn.hel1.your-objectstorage.com/s/v3/95fd281eaed414ce88968779d6fceb56449c21a0_convertbox_logo__1_.png
     alt: ConvertBox Logo
   actions:
     - theme: brand
