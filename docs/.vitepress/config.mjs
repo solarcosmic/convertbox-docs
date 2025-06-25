@@ -14,7 +14,7 @@ export default defineConfig({
       { text: 'Home', link: '/' },
     ],
     footer: {
-      copyright: '© 2025 solarcosmic. Built with VitePress.'
+      copyright: '© 2025 solarcosmic. Built with VitePress, taken from the BetterKMR project.'
     },
 
     sidebar: [
@@ -28,31 +28,17 @@ export default defineConfig({
       {
         text: 'Guides',
         items: [
-          { text: 'Creating Custom Themes', link: '/guides/creating_custom_themes' },
-          { text: 'Building & Developing', link: '/guides/building_and_developing' },
-          { text: 'Using the Navbar Editor', link: '/guides/using_the_navbar_editor' },
+          { text: 'Get Extension', link: '/guides/building_the_extension_for_chrome' },
         ]
       },
       {
         text: 'Changelogs',
         items: [
-          { text: 'v1.1.0 - Better Notices & VTT', link: '/changelog/1_1_0' },
-          { text: 'v1.1.1 - Import/Export Themes', link: '/changelog/1_1_1' },
-          { text: 'v1.2.0 - Dynamic Navbar Editor', link: '/changelog/1_2_0' },
-          { text: 'v1.2.1 - Settings Patch Fix', link: '/changelog/1_2_1' },
-        ]
-      },
-      {
-        text: 'Develop',
-        items: [
-          { text: 'How to Test New Builds (Testers)', link: '/develop/how_to_test_new_builds' },
-          { text: 'Scripting Language Testing', link: '/develop/javahnscript' },
         ]
       },
     ],
 
     socialLinks: [
-      { icon: 'discord', link: 'https://discord.gg/4MkRmFmHz2' },
       { icon: 'github', link: 'https://github.com/solarcosmic/ConvertBox' }
     ]
   }
