@@ -3,25 +3,22 @@
 layout: home
 
 hero:
-  name: "Welcome to the BetterKMR Docs!"
+  name: "Welcome to the ConvertBox Docs!"
   text: ""
-  tagline: BetterKMR transforms your everyday Kamar portal into a personalised and enhanced environment with awesome themes, customisation options, and even more.
+  tagline: ConvertBox transforms your everyday Kamar portal into a personalised and enhanced environment with awesome themes, customisation options, and even more.
   image:
     src: https://interlabs-official.github.io/global_assets/icon_transparent_128.png
-    alt: BetterKMR Logo
+    alt: ConvertBox Logo
   actions:
     - theme: brand
       text: Get Started
       link: /general/welcome
-    - theme: alt
-      text: Download on Chrome Web Store
-      link: https://chromewebstore.google.com/detail/BetterKMR/ldeihnclejjjlcoojbonlenhlbjibjfn
 
 features:
-  - title: Themes
-    details: Choose from a variety of preset themes, or create your own with extended functionality!
-  - title: Settings
-    details: Tweak things to how you want and what feels like you!
-  - title: Custom Profile Picture
-    details: Change your profile picture in a few easy steps and don't look back!
+  - title: Images
+    details: Convert multiple image formats to PNG, JPG, WebP and more!
+  - title: Casing
+    details: Copy text to Uppercase, lowercase, and Title Case!
+  - title: HTML to Markdown
+    details: Convert almost any HTML page to Markdown!
 ---
