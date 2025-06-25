@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Redirecting…</title>
+  <meta http-equiv="refresh" content="0; url=/betterkmr-docs/" />
+  <script>
+    const current = window.location.pathname;
+    const suffix = current.replace(/^\/BetterKMR\/docs/, '');
+    const query = window.location.search + window.location.hash;
+    window.location.replace('/betterkmr-docs' + suffix + query);
+  </script>
+</head>
+<body>
+  Redirecting to <a id="link" href="#">new docs</a>…
+  <script>
+    document.getElementById('link').href =
+      '/betterkmr-docs' + window.location.pathname.replace(/^\/BetterKMR\/docs/, '');
+  </script>
+</body>
+</html>
