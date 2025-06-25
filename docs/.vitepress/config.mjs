@@ -8,7 +8,7 @@ export default defineConfig({
   cleanUrls: true,
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
-    logo: 'https://interlabs-official.github.io/global_assets/betterkmr_logo_up.png',
+    logo: '/imgs/ConvertBox_Logo_Transparent.png',
     siteTitle: false,
     nav: [
       { text: 'Home', link: '/' },
@@ -30,12 +30,7 @@ export default defineConfig({
         items: [
           { text: 'Get Extension', link: '/guides/get_extension' },
         ]
-      },
-      {
-        text: 'Changelogs',
-        items: [
-        ]
-      },
+      }
     ],
 
     socialLinks: [
