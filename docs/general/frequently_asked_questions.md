@@ -3,20 +3,31 @@ title: Frequently Asked Questions (FAQs)
 description: FAQs
 ---
 # Frequently Asked Questions (FAQs)
-### How do I install BetterKMR?
-Installing BetterKMR is easy! You can download the latest version from both the Chrome Web Store and Firefox Add-ons. To install BetterKMR manually, you can download the latest release from the releases page.
+## What can ConvertBox convert?
+- A variety of image formats (e.g. PNG, JPG) to WebP, ICO, BMP, and more.
+- HTML page to Markdown format.
+- Selected text to QR code.
+- Hex colour codes to RGB.
 
-### Why can't I add external JavaScript code to my custom theme?
-Due to security concerns, this feature is not yet available, but is possibly planned.
+## Why would ConvertBox be needed?
+Imagine this: you stumble across an image you want to use in your project, for example, but the format is something like .avif! ConvertBox can fix that in only two clicks, converting the image without leaving your computer.
 
-### The navbar doesn't work well with my school's Kamar page?
-This is a known issue and we're working on it. For now though, you can toggle the Dynamic Navbar option in the settings. Check the question below to join our Discord server.
+## How does ConvertBox work?
+ConvertBox uses a variety of tools and modules to convert what is needed client-sided without sending anything to a third party. Everything runs directly in your browser.
 
-### I'm having trouble with BetterKMR, where can I get help?
-You can join the Discord server to get help from the developers.
+## What's AI and what isn't?
+The majority of this project was not made with AI, with these few exceptions:
+- AI helped with some of the errors encountered
+- AI helped to make some of the code more readable and efficient
+- Webpack configuration file (webpack.config.js)
 
-### Why doesn't the extension work properly when I download the .zip from the main branch?
-This is because the intention of BetterKMR is to be built before it can be actually used. You can either:
-- Get BetterKMR from the Chrome Web Store (recommended).
-- Use the prebuilt versions from the releases page or the GitHub workflow runs for cutting-edge development builds.
-- Build BetterKMR yourself. You can find the instructions at the "Building & Developing" section in Guides.
+Most of these were from Google's AI summary feature (Gemini).
+
+## Why was ConvertBox made?
+ConvertBox was made for [Summer of Making](https://summer.hackclub.com/projects/2390) by Hack Club. It has solved a problem I always had, saving time efficiently.
+
+## What browsers is ConvertBox available on?
+ConvertBox is available for both Chrome-based browsers (e.g. Chrome, Brave, Microsoft Edge), but is also available for Firefox-based browsers (Firefox, Zen Browser, LibreWolf).
+
+## You use a CORS proxy to circumvent CORS issues! Does that mean this extension isn't completely local?
+No, this extension isn't completely local, but the methods to convert these are.

@@ -28,7 +28,7 @@ export default defineConfig({
       {
         text: 'Guides',
         items: [
-          { text: 'Get Extension', link: '/guides/building_the_extension_for_chrome' },
+          { text: 'Get Extension', link: '/guides/get_extension' },
         ]
       },
       {
