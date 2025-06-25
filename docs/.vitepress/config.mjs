@@ -8,7 +8,7 @@ export default defineConfig({
   cleanUrls: true,
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
-    logo: 'https://hc-cdn.hel1.your-objectstorage.com/s/v3/45f9faf974e7cbdcfc5d8a48440067bf219f9127_convertbox_logo_transparent.png',
+    logo: 'https://hc-cdn.hel1.your-objectstorage.com/s/v3/39a5b5c43f0c51f0112c80a081463e79340f1c89_convertbox_banner_transparent.png',
     siteTitle: false,
     nav: [
       { text: 'Home', link: '/' },
